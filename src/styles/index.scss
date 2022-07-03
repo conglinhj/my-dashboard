@@ -1,0 +1,14 @@
+@use 'common';
+
+// theme
+
+@use 'footer';
+@use 'header';
+@use 'navigate';
+@use 'sidebar';
+
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
